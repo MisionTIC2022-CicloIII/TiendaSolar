@@ -7,13 +7,13 @@ import { UsuariosProvider } from "./context/UsuariosProvider";
 import LayoutAuth from "./Layout/LayoutAuth";
 import RutaProtegida from "./Layout/RutaProtegida";
 // pages (usuarios)
-import Login from "./pages/Login";
-import Registro from "./pages/usuario/Registro";
-import OlvidePassword from "./pages/usuario/OlvidePassword";
-import Confirmar from "./pages/usuario/Confirmar";
+import Login from "./Pages/Login";
+import Registro from "./Pages/usuario/Registro";
+import OlvidePassword from "./Pages/usuario/OlvidePassword";
+import Confirmar from "./Pages/usuario/Confirmar";
 // pages (usuarios protegidas)
-import Perfil from "./pages/usuario/Perfil";
-import CambiarPassword from "./pages/usuario/CambiarPassword.jsx";
+import Perfil from "./Pages/usuario/Perfil";
+import CambiarPassword from "./Pages/usuario/CambiarPassword.jsx";
 // pages (productos)
 // import ListaProductos from "./pages/productos/ListaProductos";
 // import FormularioProductos from "./pages/productos/FormularioProductos";
