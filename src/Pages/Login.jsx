@@ -1,9 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from 'react';
 
-import useAuth from '../hooks/useAuth';
-import Alerta from '../components/Alerta';
-import clienteAxios from '../config/axios';
+import useAuth from '../hooks/useAuth.jsx';
+import Alerta from '../components/Alerta.jsx';
+import clienteAxios from '../config/axios.jsx';
 
 import imgLogin from '../assets/Imagen-login.png'
 import fondoLogin from '../assets/fondo-login.jpg'
