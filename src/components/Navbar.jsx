@@ -18,7 +18,7 @@ const Navbar = ({ texto, ruta, id, perfil }) => {
           className="my-3 p-3 h-10 rounded-lg w-1/2 border-2"
         />
         <div className="flex gap-3">
-          {!venta && (
+          { /* {!venta && (
             <button
               type="button"
               className="hover:scale-110 text-black p-2 flex items-center cursor-pointer font-medium hover:border-b-blue-500 hover:border-b-2 transition-all"
@@ -39,7 +39,7 @@ const Navbar = ({ texto, ruta, id, perfil }) => {
                 />
               </svg>
             </button>
-          )}{" "}
+          )}{" "}*/}
           {!perfil && (
             <button type="button" className="hover:scale-110 transition-all">
               <Link
@@ -96,7 +96,7 @@ const Navbar = ({ texto, ruta, id, perfil }) => {
               placeholder="Buscar Producto"
               className="my-3 p-3 h-10 rounded-lg border-2"
             />
-            {!venta && (
+            { /* {!venta && (
               <button
                 type="button"
                 className="gap-2 text-black p-2 flex justify-center cursor-pointer font-medium hover:border-b-blue-500 hover:border-b-2 bg-slate-200 transition-all"
@@ -118,7 +118,7 @@ const Navbar = ({ texto, ruta, id, perfil }) => {
                   />
                 </svg>
               </button>
-            )}
+            )} */ }
             {!perfil && (
               <button type="button">
                 <Link
