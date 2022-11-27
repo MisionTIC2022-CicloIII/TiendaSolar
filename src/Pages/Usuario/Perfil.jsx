@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import useAuth from "../../hooks/useAuth";
-import Alerta from "../../components/Alerta";
-import Navbar from "../../components/Navbar";
+import useAuth from "../../hooks/useAuth.jsx";
+import Alerta from "../../components/Alerta.jsx";
+import Navbar from "../../components/Navbar.jsx";
+
 const Perfil = () => {
   const { auth, actualizarPerfil } = useAuth();
   const [perfil, setPerfil] = useState({});
@@ -11,6 +12,7 @@ const Perfil = () => {
     setPerfil(auth.usuario);
     console.log(auth);
   }, [auth]);
+
   const [verVerfil, setVerPerfil] = useState(false);
   useEffect(() => setVerPerfil(true), []);
   const handleSubmit = async (e) => {

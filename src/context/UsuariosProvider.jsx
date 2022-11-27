@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from 'react';
-import clienteAxios from '../config/axios';
+import clienteAxios from '../config/axios.jsx';
 
 const UsuariosContext = createContext();
 
